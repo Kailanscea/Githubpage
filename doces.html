@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SweetCakes Carol</title>
+    <link rel="icon" href="sweetscake.jpg" type="logo">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .navbar {
+            background-color: pink;
+            border-bottom: 3px solid #f8f9fa;
+        }
+
+        .navbar-brand {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .nav-link {
+            color: #fff !important;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .card {
+            border: none;
+            border-radius: 10px;
+            box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card-title {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .card-text {
+            font-size: 18px;
+            color: #333;
+        }
+
+        .form-check-label {
+            font-size: 16px;
+        }
+
+        .btn-danger {
+            background-color: #dc3545;
+            border-color: #dc3545;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .btn-danger:hover {
+            background-color: #c82333;
+            border-color: #bd2130;
+        }
+
+        .collapse-toggle {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .collapse-card-container {
+            display: flex;
+            justify-content: center;
+        }
+
+        .collapse-card {
+            width: 100%;
+            max-width: 500px; 
+            transition: margin-top 0.3s ease;
+        }
+
+        .collapse-card-content {
+            transition: margin-top 0.3s ease;
+            margin-top: 20px;
+        }
+
+        .collapsed .collapse-card-content {
+            margin-top: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand">
+                <img src="logo.png" style="height: 100px;" alt="Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="doces.html">Doces</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="datascomemorativas.html">Datas Comemorativas</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="collapse-toggle">
+        <p>
+            <a class="btn btn-primary mb-3" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">Spoiler Aqui!</a>
+        </p>
+    </div>
+
+    <div class="collapse" id="collapseExample">
+        <div class="card card-body">
+            <h3 class="card-title">Como fazemos nossos bolos?</h3>
+            <p class="card-text">Nosso processo de fabricação de bolos é cuidadosamente elaborado para garantir qualidade e sabor em cada fatia. Aqui está uma visão geral do processo:</p>
+            <ol class="card-text">
+                <li>Seleção dos melhores ingredientes frescos e de alta qualidade.</li>
+                <li>Preparo da massa, seguindo receitas tradicionais e testadas.</li>
+                <li>Assamento dos bolos em fornos controlados para garantir uma distribuição uniforme de calor.</li>
+                <li>Resfriamento e decoração dos bolos com coberturas deliciosas e ingredientes frescos.</li>
+                <li>Embalagem cuidadosa para manter a frescura e o sabor dos bolos.</li>
+            </ol>
+            <p class="card-text">Nosso compromisso é sempre fornecer bolos frescos, deliciosos e feitos com amor para você desfrutar em qualquer ocasião!</p>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
+
+
+    <h1 class="text-black text-center p-5">Brigadeiro</h1>
+    <section class="row">
+        <div class="col-sm-12 col-lg-6 mx-auto">
+            <div class="card">
+                <img style="width: 100%; height: auto; margin: 0 auto;" src="https://www.receitasnestle.com.br/sites/default/files/srh_recipes/1a884bcbc5b04d71476d2995d51d0140.jpg" class="card-img-top" alt="Brigadeiro">
+                <div class="card-body">
+                    <h5 class="card-title">Brigadeiro</h5>
+                    <p class="card-text">O brigadeiro é um doce tradicional brasileiro, muito fácil de fazer e sempre um sucesso em festas e eventos.</p>
+                    <h2>Ingredientes:</h2>
+                    <ul class="list-unstyled">
+                        <li><input class="form-check-input me-2" type="checkbox" id="leite-condensado"><label for="leite-condensado">1 lata de leite condensado</label></li>
+                        <li><input class="form-check-input me-2" type="checkbox" id="manteiga"><label for="manteiga">1 colher de sopa de manteiga</label></li>
+                        <li><input class="form-check-input me-2" type="checkbox" id="chocolate-po"><label for="chocolate-po">7 colheres de sopa de chocolate em pó</label></li>
+                        <li><input class="form-check-input me-2" type="checkbox" id="chocolate-granulado"><label for="chocolate-granulado">Chocolate granulado para decorar</label></li>
+                    </ul>
+                    <h2>Modo de Preparo:</h2>
+                    <ol>
+                        <li>Em uma panela, coloque o leite condensado, a manteiga e o chocolate em pó.</li>
+                        <li>Leve ao fogo baixo e mexa sem parar até que a mistura comece a desgrudar do fundo da panela.</li>
+                        <li>Desligue o fogo e deixe a massa esfriar.</li>
+                        <li>Com as mãos untadas de manteiga, faça bolinhas com a massa e passe no chocolate granulado.</li>
+                        <li>Coloque os brigadeiros em forminhas de papel e sirva.</li>
+                        <li>Se preferir, você pode colocar os brigadeiros em um prato untado com manteiga e deixar esfriar para comer de colher.</li>
+                    </ol>
+                    <p class="card-text">Seu brigadeiro está pronto para ser saboreado! Bom apetite!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <h1 class="text-black text-center p-5">Beijinho</h1>
+    <section class="row">
+        <div class="col-sm-12 col-lg-6 mx-auto">
+            <div class="card">
+                <img style="width: 100%; height: auto; margin: 0 auto;" src="https://vitat.com.br/receitas/images/recipeshandler.jpg?id=80787&tipo=r&default=s" class="card-img-top" alt="Branquinho">
+                <div class="card-body">
+                    <h5 class="card-title">Beijinho</h5>
+                    <p class="card-text">O branquinho é um doce tradicional brasileiro, conhecido também como "beijinho", feito à base de coco e leite condensado.</p>
+                    <h2>Ingredientes:</h2>
+                    <ul class="list-unstyled">
+                        <li><input class="form-check-input me-2" type="checkbox" id="leite-condensado-beijinho"><label for="leite-condensado-beijinho">1 lata de leite condensado</label></li>
+                        <li><input class="form-check-input me-2" type="checkbox" id="coco-ralado-beijinho"><label for="coco-ralado-beijinho">100g de coco ralado</label></li>
+                        <li><input class="form-check-input me-2" type="checkbox" id="manteiga-beijinho"><label for="manteiga-beijinho">1 colher de sopa de manteiga</label></li>
+                        <li><input class="form-check-input me-2" type="checkbox" id="acucar-beijinho"><label for="acucar-beijinho">Açúcar cristal para decorar</label></li>
+                    </ul>
+                    <h2>Modo de Preparo:</h2>
+                    <ol>
+                        <li>Em uma panela, misture o leite condensado, o coco ralado e a manteiga.</li>
+                        <li>Leve ao fogo baixo, mexendo sempre, até a mistura desgrudar do fundo da panela.</li>
+                        <li>Desligue o fogo e deixe a massa esfriar.</li>
+                        <li>Com as mãos untadas de manteiga, faça bolinhas com a massa e passe no açúcar cristal.</li>
+                        <li>Coloque os branquinhos em forminhas de papel e sirva.</li>
+                        <li>Se preferir, você pode colocar os branquinhos em um prato untado com manteiga e deixar esfriar para comer de colher.</li>
+                    </ol>
+                    <p class="card-text">Seu branquinho está pronto para ser saboreado! Bom apetite!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <h1 class="text-black text-center p-5">Cajuzinho</h1>
+    <section class="row">
+        <div class="col-sm-12 col-lg-6 mx-auto">
+            <div class="card">
+                <img style="width: 100%; height: auto; margin: 0 auto;" src="https://guiadacozinha.com.br/wp-content/uploads/2019/11/Cajuzinho-de-festa.jpg" class="card-img-top" alt="Cajuzinho">
+                <div class="card-body">
+                    <h5 class="card-title">Cajuzinho</h5>
+                    <p class="card-text">O cajuzinho é um doce brasileiro tradicional, feito à base de amendoim, leite condensado e chocolate.</p>
+                    <h2>Ingredientes:</h2>
+                    <ul class="list-unstyled">
+                        <li><input class="form-check-input me-2" type="checkbox" id="amendoim-cajuzinho"><label for="amendoim-cajuzinho">500g de amendoim torrado e sem pele</label></li>
+                        <li><input class="form-check-input me-2" type="checkbox" id="leite-condensado-cajuzinho"><label for="leite-condensado-cajuzinho">1 lata de leite condensado</label></li>
+                        <li><input class="form-check-input me-2" type="checkbox" id="manteiga-cajuzinho"><label for="manteiga-cajuzinho">2 colheres de sopa de manteiga</label></li>
+                        <li><input class="form-check-input me-2" type="checkbox" id="chocolate-em-po-cajuzinho"><label for="chocolate-em-po-cajuzinho">4 colheres de sopa de chocolate em pó</label></li>
+                        <li><input class="form-check-input me-2" type="checkbox" id="acucar-cajuzinho"><label for="acucar-cajuzinho">Açúcar cristal para decorar</label></li>
+                    </ul>
+                    <h2>Modo de Preparo:</h2>
+                    <ol>
+                        <li>Em um processador, triture o amendoim até obter uma farofa fina.</li>
+                        <li>Transfira a farofa de amendoim para uma tigela e adicione o leite condensado, a manteiga e o chocolate em pó.</li>
+                        <li>Misture bem até obter uma massa homogênea.</li>
+                        <li>Com as mãos untadas de manteiga, faça pequenas bolinhas com a massa.</li>
+                        <li>Passe as bolinhas no açúcar cristal e coloque-as em forminhas de papel.</li>
+                        <li>Leve à geladeira por pelo menos 30 minutos antes de servir.</li>
+                        <li>Seu cajuzinho está pronto para ser degustado!</li>
+                    </ol>
+                    <p class="card-text">Sirva e aproveite o sabor delicioso do cajuzinho!</p>
+                </div>
+            </div>
+        </div>
+    </section>
